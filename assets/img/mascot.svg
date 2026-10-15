@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Sol, la mascota">
+  <g fill="#ffc800">
+    <path d="M100 6 l10 26 h-20z"/><path d="M100 194 l10 -26 h-20z"/><path d="M6 100 l26 10 v-20z"/><path d="M194 100 l-26 10 v-20z"/>
+    <path d="M33 33 l25 11 l-14 14z"/><path d="M167 33 l-11 25 l-14 -14z"/><path d="M33 167 l11 -25 l14 14z"/><path d="M167 167 l-25 -11 l14 -14z"/>
+  </g>
+  <circle cx="100" cy="100" r="62" fill="#ffd93b" stroke="#ffb100" stroke-width="5"/>
+  <ellipse cx="78" cy="92" rx="10" ry="13" fill="#3c3c3c"/><ellipse cx="122" cy="92" rx="10" ry="13" fill="#3c3c3c"/>
+  <circle cx="81" cy="87" r="4" fill="#fff"/><circle cx="125" cy="87" r="4" fill="#fff"/>
+  <ellipse cx="64" cy="114" rx="10" ry="6" fill="#ff9a8b" opacity=".7"/><ellipse cx="136" cy="114" rx="10" ry="6" fill="#ff9a8b" opacity=".7"/>
+  <path d="M78 116 Q100 140 122 116" fill="#ff4b4b" stroke="#3c3c3c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M58 58 Q100 20 142 58 Q120 50 100 50 Q80 50 58 58z" fill="#ff4b4b"/>
+  <rect x="52" y="54" width="96" height="10" rx="5" fill="#c62828"/>
+  <circle cx="100" cy="38" r="5" fill="#58cc02"/>
+</svg>

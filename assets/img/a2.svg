@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Nivel A2">
+  <path d="M32 3 L57 14 V34 C57 48 46 57 32 61 C18 57 7 48 7 34 V14Z" fill="#1cb0f6" stroke="#1899d6" stroke-width="3"/>
+  <path d="M32 10 L51 18 V34 C51 44 43 51 32 54 C21 51 13 44 13 34 V18Z" fill="#fff" opacity=".22"/>
+  <text x="32" y="41" text-anchor="middle" font-family="Nunito,Arial,sans-serif" font-weight="900" font-size="22" fill="#fff">A2</text>
+  <circle cx="27" cy="15" r="3" fill="#ffc800"/><circle cx="37" cy="15" r="3" fill="#ffc800"/>
+</svg>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Camino al Español · A1–B1</title>
+  <meta name="description" content="Curso interactivo de español para estudiantes de nivel A1, A2 y B1: gramática, vocabulario, lectura y speaking.">
+  <meta name="theme-color" content="#58cc02">
+  <meta property="og:title" content="Camino al Español · A1–B1">
+  <meta property="og:description" content="Aprende español paso a paso: teoría, ejercicios, lectura y speaking.">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="top">
+    <button class="menu" id="menuBtn" aria-label="Menú">☰</button>
+    <button class="brand" onclick="App.home()" aria-label="Inicio"><img src="assets/img/logo.svg" alt=""><span>Camino al Español</span></button>
+    <button class="mode-pill" id="modePill" onclick="App.chooseMode()"></button>
+    <span class="stat" title="Racha de días / Day streak">🔥 <b id="st">0</b></span>
+    <span class="stat" title="Puntos de experiencia">⭐ <b id="xp">0</b> <span class="lbl">XP</span></span>
+  </header>
+  <div class="app">
+    <nav id="nav" aria-label="Módulos"></nav>
+    <main id="main"></main>
+  </div>
+  <noscript><p style="padding:20px">Activa JavaScript para usar Camino al Español. <i>Please enable JavaScript.</i></p></noscript>
+
+  <!-- Contenidos por nivel (se pueden editar sin tocar el código) -->
+  <script src="data/a1-gramatica.js"></script>
+  <script src="data/a1-vocabulario.js"></script>
+  <script src="data/a2-gramatica.js"></script>
+  <script src="data/a2-vocabulario.js"></script>
+  <script src="data/b1-gramatica.js"></script>
+  <script src="data/b1-vocabulario.js"></script>
+  <script src="data/levels.js"></script>
+  <!-- Aplicación -->
+  <script src="js/app.js"></script>
+</body>
+</html>
